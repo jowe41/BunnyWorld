@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/grass"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bunny World"
+        android:textSize="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/bunny"
+        android:fontFamily="@font/newfont"/>
+
+    <Button
+        android:id="@+id/playgame"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play Game"
+        android:layout_margin="5dp"
+        android:onClick="playGame"
+        android:fontFamily="@font/newfont"
+        />
+
+    <Button
+        android:id="@+id/editgame"
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Game"
+        android:onClick="editGame"
+        android:fontFamily="@font/newfont"/>
+
+
+
+
+    <Button
+        android:id="@+id/deletegame"
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Game"
+        android:onClick="deleteGame"
+        android:fontFamily="@font/newfont"
+        />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Bunny World"
+        android:onClick="quitGame"
+        android:fontFamily="@font/newfont"/>
+
+
+
+
+</LinearLayout>

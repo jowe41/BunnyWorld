@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemSet"
+        android:title="Set Propoerty"
+        />
+
+    <item
+        android:id="@+id/itemCopy"
+        android:title="Copy Shape"
+        />
+    <item
+        android:id="@+id/itemCut"
+        android:title="Cut Shape"
+        />
+    <item
+        android:id="@+id/itemPaste"
+        android:title="Paste Shape"
+        />
+    <item
+        android:id="@+id/itemDelete"
+        android:title="Delete Shape"
+        />
+    <item
+        android:id="@+id/itemText"
+        android:title="Edit Text"
+        />
+    <item
+        android:id="@+id/undoShape"
+        android:title="Undo Shape"
+        />
+</menu>
